@@ -13,7 +13,7 @@
 
 ## 2. Info Page
 
-<a href="https://zhwltlr.github.io/info/">자기소개 바로가기</a>
+<!-- <a href="https://zhwltlr.github.io/info/">자기소개 바로가기</a> -->
 
 <p>TMI가 난무하는 소개페이지 입니다.</p>
 
