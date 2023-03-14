@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "exImageUrl": "https://framerusercontent.com/images/ShhqalzMh9fB1tTEQzKLKvHfvI.png",
+    "companyName": "WECODE",
+    "companyExplanation": "프론트엔드 과정",
+    "period": "2022-10 ~ 2023.01",
+    "content": [
+      "실습을 통해 HTTP 네트워크 통신을 통한 데이터 요청 및 처리 방법과 로그인/회원가입 기능 구현을 통한 인증/인가 프로세스 학습했습니다.",
+      "프로젝트를 통해 다양한 협업 툴(Github, Slack, Trello)을 활용한 올바른 협업 및 소통 방식을 습득하고 Web 서비스에 대한 이해와 실전 문제 해결 역량을 키웠습니다."
+    ]
+  },
+  {
+    "id": 2,
+    "exImageUrl": "https://sbsart.com/2022/img/common/logo_wh.svg",
+    "companyName": "SBS 컴퓨터 아카데미",
+    "companyExplanation": "웹디자인 과정",
+    "period": "2021-04 ~ 2021.12",
+    "content": [
+      "웹 접근성의 개념과 웹 표준 문법을 이해하고 웹 콘텐츠의 구조와 표현, 동작을 명확하게 분석하고, 웹 표준을 준수하여 웹 사이트를 디자인하였습니다.",
+      "구조적인 언어와 표현 언어의 관계를 인식함으로써 스스로 구현하고 제작할 수 있도록 학습하였습니다."
+    ]
+  },
+  {
+    "id": 3,
+    "exImageUrl": "https://user-images.githubusercontent.com/100506719/224533985-addc89a4-5cc0-4be2-96f7-5a18671b96d7.png",
+    "companyName": "한샘",
+    "companyExplanation": "직매장 사업부 영업파트",
+    "period": "2018-10 ~ 2020.07",
+    "content": [
+      "SpaceCoordinator로 고객 공간 맞춤 가구 설계를 제안하였습니다.",
+      "고객 상담 및 오더 관리, 시공 업체 관리를 담당하였습니다."
+    ]
+  }
+]
