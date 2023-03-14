@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap');
+
+
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul,li{list-style: none; padding: 0;}
+a{text-decoration: none; color: inherit;}
+img{border: none;}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+html{
+    font-size: 0.625rem; overflow-x: hidden;
+}
+body{
+    font-family: 'Hahmlet', serif;
+    line-height: 1px;
+}
+.blind{
+    position: absolute; top: -9999px; left: -9999px;
+}
+/* header */
+.nav{
+    margin: 0 auto;
+    display: block;
+    height: 120px;
+    width: 1000px;
+    top: 0;
+    background-color: #fff; 
+    border-bottom: 1px solid rgb(178, 178, 178);
+}
+.navSns li a:hover{
+    color: orange;
+}
+
+h1{
+    overflow: hidden;
+    text-indent: -9999px;
+}
+h1 a{
+    margin-top: 5px;
+    height: 110px;
+    width: 340px;
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    overflow: hidden;
+}
+h1 a{
+    background: url(../img/giflogo.gif) center/contain no-repeat;
+}
+#video{
+    margin: 20px auto;
+}
+.video-js {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+.navSns {
+    width: 250px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: #777;
+    line-height: 20px;
+    align-items: center;
+    font-family: 'Noto Serif KR', serif;
+}
+
+/* 개인 사이트 */
+#mysite{
+    margin: 90px auto;
+    width: 900px;
+    /* 고민 */
+    /* background-color: rgb(254, 182, 46); */
+    background-color: #b9dfb8;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+.repository{
+    height: 150px;
+    width: 95%;
+    padding-left: 30px;
+    margin: 0 auto;
+}
+.blog, .github{
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+}
+.githubImg a, .blogImg img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    float: left;
+}
+.blogImg img{
+    object-fit: cover;
+}
+/* a태그로 작동시 이미지가 2개가 나타남 */
+/* .blogImg a{
+    background: url(../img/s_zhwltlr.png)no-repeat center/cover;
+} */
+.blogImg img:hover,
+.githubImg a:hover
+{
+    transform: translateY(-7px);
+    transition: all 0.4s;
+}
+.blogText{
+    width: 220px;
+    margin-right: 35px;
+    margin-top: 30px;
+    line-height: 30px;
+    word-break: keep-all;
+    font-size: 2.4rem;
+    float: right;
+    color: #333;
+}
+.githubImg a{
+    background: url(../img/github2.png) no-repeat center/cover;
+}
+.githubText{
+    width: 220px;
+    margin-right: 30px;
+    margin-top: 18px;
+    line-height: 30px;
+    font-size: 2.4rem;
+    float: right;
+    color: #333;
+    word-break: keep-all;
+    letter-spacing: -1px;
+}
+
+
+/* Q&A */
+#QNA{
+    margin: 0 auto;
+    width: 900px;
+}
+#QNA h2{
+    text-align: center;
+    font-size: 4rem;
+    line-height: 40px;
+    margin-bottom: 60px;
+}
+.QNABox{
+    width: 900px;
+    margin: 0 auto;
+}
+.ques1, .ques2, .ques3{
+    width: 100%;
+    height: 180px;
+    background-color: #e1f7f3;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.ques3{
+    margin-bottom: 50px;
+}
+.ques1 h3, .ques2 h3, .ques3 h3{
+    font-size: 2.6rem;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 70px;
+    color: rgb(1, 0, 79);
+}
+.hideAns1,
+.hideAns2,
+.hideAns3
+{
+    height: 180px;
+    width: 900px;
+    position: absolute;
+    top: 180px;
+    border-radius: 40px;
+    background-color: rgb(109, 109, 207);
+    transition: all 0.3s;
+}
+.ans{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2.4rem;
+    margin: 0 auto;
+    line-height: 40px;
+    text-align: center;
+    width: 700px;
+    height: 180px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: keep-all;
+}
+.QNABox img{
+    width: 35px;
+}
+.quemore{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    position: relative;
+}
+.quemore h3{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.quemore form{
+    text-align: center;
+}
+.quemore img{
+    width: 25px;
+}
+input[type=text]{
+    width: 400px;
+    height: 40px;
+    font-size: 1.8rem;
+    line-height: 18px;
+    border-radius: 10px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+input[type=submit]{
+    width: 70px;
+    height: 40px;
+    font-size: 1.6rem;
+    line-height: 16px;
+}
+
+
+
+/* tmi */
+#tmi{
+    width: 100%;
+    background-color: #def1ee;
+}
+.tmiContent{
+    width: 900px;
+    margin: 0 auto;
+}
+.tmiContent h2{
+    font-size: 4rem;
+    line-height: 40px;
+    padding: 70px 0 40px 0;
+}
+.tmiContent h2 > span{
+    font-size: 2rem;
+}
+
+/* display : flex 적용 */
+.interest{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.interest img{
+    width: 25px;
+}
+.con{
+    width: 250px;
+    height: 390px;  
+    border-radius: 5px;
+}
+.baseball{
+    background: url(../img/sl.jpg) no-repeat center/cover;
+}
+.baseball:hover,
+.conan:hover,
+.itzy:hover{
+    transform: translateY(-11px);
+    transition: all 0.4s;
+}
+.conText{
+    height: 390px;
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 30px;
+    display: none;
+    letter-spacing: -1px;
+}
+.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conText > p{
+    font-size: 1.8rem;
+    margin-top: 20px;
+    letter-spacing: 0;
+}
+
+.conan{
+    background: url(../img/conan_wp01.jpg) no-repeat center/cover;
+}
+.itzy{
+    background: url(../img/itzy2.jpg) no-repeat -15px/cover;
+}
+.etc{
+    clear: both;
+    margin-top: 35px;
+    width: 100%;
+}
+.etcBox{
+    height: 150px;
+    width: 400px;
+    float: left;
+}
+.hobby{
+    margin-right: 100px;
+    background: url(../img/premier.jpg) no-repeat center/cover;
+    border-radius: 5px;
+}
+
+/* felx로 박스 한가운데 정렬 */
+.hobbyQ, .foodQ{
+    height: 150px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(185,223,184,1);
+    font-size: 2.4rem;
+    line-height: 24px;
+    border-radius: 5px;
+    transition: background 0.4s;
+}
+
+
+.food{
+    margin-bottom: 120px;
+    background: url(../img/icecream.jpg) no-repeat center/cover;
+    border-radius: 5px;
+}
+.foodQ:hover{
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    background-color: rgb(67, 67, 67);
+}
+.fContent{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 20px;
+    text-align: center;
+}
+.fContent li:first-child{
+    font-size: 2.4rem;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.fContent li img{
+    width: 22px;
+}
+.fSite{
+    width: 150px;
+    height: 70px;
+    margin: 15px auto;
+    display: block;
+}
+.fBlog{
+    width: 40%;
+    height: 60px;
+    float: left;
+    background: url(../img/s_zhwltlr.png) no-repeat center/cover;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+.fGit{
+    width: 40%;
+    height: 60px;
+    float: right;
+    background: url(../img/github2.png) no-repeat center/cover;
+    border-radius: 50%;
+    text-indent: -9999px;
+}
+.fBlog a, .fGit a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.fContent p{
+    clear: both;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    font-family: 'Noto Serif KR', serif;
+}
